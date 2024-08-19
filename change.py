@@ -1,12 +1,10 @@
-def cambio():
-    gasto= 23.75
-    dinero= 100
-
-    Vuelto= dinero-gasto
-
-    Pesos=int(Vuelto)
-    Centavos=int((Vuelto-Pesos)*100)
-
+def change():
+    gasto = float(input("Ingresar gasto:\n"))
+    dinero_recibido = float(input("Dinero recibido\n"))
+    vuelto = dinero_recibido - gasto
+    pesos = int(vuelto)
+    centavos = int(round((vuelto - pesos) * 100))
     print("\nVuelto\n")
-    print(f"Pesos:\n{Pesos}")
-    print(f"Centavos:\n{Centavos}")
+    print(f"Pesos:\n{pesos}")
+    print(f"Centavos:\n{centavos}")
+    
