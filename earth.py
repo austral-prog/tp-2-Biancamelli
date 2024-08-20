@@ -1,4 +1,4 @@
- def earth():
+def earth():
     x = "Bangladesh"
     y = "Barbados"
     result1 = x < y
