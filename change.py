@@ -1,7 +1,6 @@
 def change():
     gasto = 23.75
     Dinero_recibido: 100
-    print("Vuelto")
     Pesos: 76
     Centavos:25
     gasto= float("23.75\n")
